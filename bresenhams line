@@ -77,3 +77,6 @@ glutInitWindowSize (500, 500); glutInitWindowPosition (100, 100); glutCreateWind
 glutDisplayFunc(display); glutMainLoop();
 return 0;
 }
+
+//g++ points.cpp -lGL -lGLU -lg
+//./a.out
