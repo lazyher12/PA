@@ -58,3 +58,6 @@ Init();
 glutDisplayFunc(display);
 glutMainLoop();
 }
+
+//g++ points.cpp -lGL -lGLU -lg
+//./a.out
